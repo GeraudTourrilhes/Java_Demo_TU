@@ -42,18 +42,14 @@ public class StringUtilsTest
 	@Test
     public void testLevenshteVide()
     {
-        CharSequence rhs = "";
-    
-		CharSequence lhs = "ch@t!";
-		assertEquals(StringUtils.levenshteinDistance(lhs, rhs), 5);
+		assertEquals(StringUtils.levenshteinDistance("", "ch@t!"), 5);
     }
 	
 	@Test
     public void testLevenshteNull()
     {
-        CharSequence rhs = null;
-    
-		CharSequence lhs = null;
-		assertEquals(StringUtils.levenshteinDistance(lhs, rhs), -1);
+
+		assertEquals(StringUtils.levenshteinDistance(null, null), -1);
+		assertEquals(StringUtils.levenshteinDistance("test", null), -1);
     }
 }
