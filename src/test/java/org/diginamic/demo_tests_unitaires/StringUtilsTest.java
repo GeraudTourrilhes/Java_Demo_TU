@@ -1,11 +1,11 @@
 package org.diginamic.demo_tests_unitaires;
 
+import static org.junit.Assert.*;
+
 import org.junit.Test;
 
-import junit.framework.TestCase;
 
-
-public class AppTest extends TestCase
+public class StringUtilsTest 
 {
 	@Test
     public void testLevenshte()
