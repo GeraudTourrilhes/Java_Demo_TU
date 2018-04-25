@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.diginamic.demo_tests_unitaires.console.AppTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 0.461 sec

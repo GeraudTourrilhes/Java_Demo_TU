@@ -1,4 +1,4 @@
-package org.diginamic.demo_tests_unitaires;
+package pizzeria;
 
 import static org.junit.Assert.*;
 import static org.junit.contrib.java.lang.system.TextFromStandardInputStream.emptyStandardInputStream;
